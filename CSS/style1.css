@@ -55,6 +55,6 @@ h3 {
 	font-weight: 700;
 }
 .box {
-	display: flex;
+	display:inline-block;
 	padding: 10px;
 }

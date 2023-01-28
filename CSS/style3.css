@@ -1,5 +1,5 @@
-body {
-	background-image: url("./../MEDIA/Logo_Mighty_ducks-01.png");
+*body {
+	background-color: darkgrey;
 	margin: 20px 20px 20px 20px;
 	padding: 120px 120px 120px 120px;
 }
@@ -8,9 +8,13 @@ header {
 	background-color: aquamarine;
 }
 
-nav > a > #active {
-	background-color: green;
+header > h1 {
+	font-size: 40px;
 }
+
+/* #active {
+	background-color: green;
+} */
 .logo1 {
 	background-color: white;
 	width: 100%;
@@ -25,33 +29,22 @@ nav > a > #active {
 	border: 3px solid black;
 }
 
-.col1 {
-	width:  150px;
-}
-
-.col2 {
-	width: 300px;
-}
-
 nav {
 	position: absolute;
-	left: 850px;
-	top: 150px;
-}
-
-button {
-	border: 2px solid black;
+	left: 950px;
+	top: 45px;
 }
 
 h2 {
+	background-color: black;
+	color: white;
 	border: 3px solid black;
 	text-align: center;
+	font-weight: 700;
+	padding: 10px 10px 10px 10px;
+	text-shadow: 4px;
 }
 
 h3 {
 	font-weight: 700;
-}
-.box {
-	display: flex;
-	padding: 10px;
 }
