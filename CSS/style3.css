@@ -47,12 +47,21 @@ header > h1 {
 }
 
 .imgFondo {
-	background-image: url("./../MEDIA/hockey_1.jpg");
 	background-position: 21px -104px;
 	background-repeat: no-repeat;
 	background-size:contain;
 	height: 300px;
 	background-attachment: fixed;
+}
+
+.img1 {
+	background-image: url("./../MEDIA/design1_image1.jpg");
+}
+.img2 {
+	background-image: url("./../MEDIA/design1_image2.jpg");
+}
+.img3 {
+	background-image: url("./../MEDIA/hockey_1.jpg");
 }
 .logo1 {
 	background-color: white;
