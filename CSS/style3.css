@@ -1,9 +1,24 @@
-*body {
+body {
 	background-color: darkgrey;
 	margin: 20px 20px 20px 20px;
 	padding: 120px 120px 120px 120px;
+	font-family: system-ui, system-ui, sans-serif ;
 }
-
+table {
+	table-layout: auto;
+}
+td {
+	border: 1px solid blue;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+      }
+ th {
+  font-weight: bold;
+}
+.font2 {
+	font-family: "Arial" ;
+}
 header {
 	background-color: aquamarine;
 }
@@ -12,17 +27,42 @@ header > h1 {
 	font-size: 40px;
 }
 
-/* #active {
-	background-color: green;
-} */
+.flex {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height:inherit;
+}
+.lh-sm {
+	line-height: 0;
+}
+
+.imgFondo {
+	background-image: url("./../MEDIA/hockey_1.jpg");
+	background-position: 21px -104px;
+	background-repeat: no-repeat;
+	background-size:contain;
+	height: 300px;
+	background-attachment: fixed;
+}
 .logo1 {
 	background-color: white;
 	width: 100%;
-	height: 250px;
+	height: 150px;
 }
 
 .logo2 {
-	justify-content: flex-start;
+	z-index: 1;
+	/* justify-content: flex-start; */
 	background-color: white;
 	width: 100px;
 	height: 100px;
@@ -30,19 +70,21 @@ header > h1 {
 }
 
 nav {
-	position: absolute;
-	left: 950px;
-	top: 45px;
+	display: flex;
+	align-content:center;
+	flex-direction:	column;
+	background-color:chartreuse;
+	color: black;
+	text-align: start;
+	height: 30px;
 }
 
 h2 {
 	background-color: black;
 	color: white;
-	border: 3px solid black;
 	text-align: center;
 	font-weight: 700;
 	padding: 10px 10px 10px 10px;
-	text-shadow: 4px;
 }
 
 h3 {
