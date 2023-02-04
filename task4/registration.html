@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>[MDHL - Task 4 - Forms]</title>
+		<link rel="shortcut icon" href="./../MEDIA/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./../CSS/style4.css">
+	</head>
+	<body>
+			<header class="imgFondo img2">
+    			<h1>Mighty Duck Hockey League</h1>
+    		</header>
+		<nav>
+        		<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            			<a class="btn btn-primary" role="button" href="./index.html">Home</a>
+            			<a class="btn btn-primary" role="button" href="./aboutMDHL.html">About MDHL</a>
+            			<a class="btn btn-primary"  role="button" href="./contact.html">Contact</a>
+				<a class="btn btn-primary" role="button" href="./rules.html">Rules</a>
+				<a class="btn btn-primary" role="button" href="./game_info.html">Game Info</a>
+				<a class="btn btn-primary" style="background-color: green;" role="button" href="./registration.html">Registration</a>
+                	</div>
+    		</nav>
+		<main>
+			<section>
+    				<h2>Registration Form</h2>
+    				<br>
+    				<br>
+				<form action="" method="GET">
+					<fieldset>
+						<div>
+							<label for="firstName">Player's First Name:</label>
+							<input type="text" id="firstName" name="" placeholder="Enter the player's first name...">
+							<label>
+								<span>Last Name:</span>
+								<input type="text" name="lastName" placeholder="Enter last name...">
+							</label>
+						</div>
+						<div>
+							<label>
+							<span>Street Address:</span>
+							<input type="text" name="streetAddress" placeholder="Enter street address...">
+							</label>
+						</div>
+						<div>
+							<label>
+							<span>City:</span>
+							<input type="text" name="city" placeholder="Enter city...">
+							</label>
+							<label>Zip Code: <input type="text" name="zipCode" placeholder="Enter zip code..."></label>
+						</div>
+						<div>
+							<label>
+							<span>Birth Date(mm/dd/yyyy):</span>
+							<input type="date" name="birthDate" placeholder="Enter birth date...">
+							</label>
+							<label>
+							<span>Gender:</span>
+							<span>Female</span><input type="checkbox" id="female" name="gender" placeholder="Enter gender...">
+							<span>Male</span><input type="checkbox" id="male" name="gender" placeholder="Enter gender...">
+							</label>
+						</div>
+						<div>
+							<label>Grade: <input type="checkbox" id="grade" placeholder="Enter grade..."></label>
+							<label>Pre-School <input type="checkbox" id="grade1" name="preSchool" placeholder="Enter grade..."><span>1st</span></label>
+							<label> <input type="checkbox" id="grade2" name="preSchool" placeholder="Enter grade..."><span>2nd</span></label>
+							<label> <input type="checkbox" id="grade3" name="preSchool" placeholder="Enter grade..."><span>3rd</span></label>
+							<label> <input type="checkbox" id="grade4" name="preSchool" placeholder="Enter grade..."><span>4th</span></label>
+							<label> <input type="checkbox" id="grade5" name="preSchool" placeholder="Enter grade..."><span>5th</span></label>
+						</div>
+					
+					
+						<p><b>Which elementary school do you live near?<br>Closest School:</b></p>
+						<div class="flex">
+							<label> <input type="checkbox" id="school1" name="school" placeholder="Enter grade..."><span>AJ Katzenmaier</span></label>
+							<label> <input type="checkbox" id="school2" name="school" placeholder="Enter grade..."><span>Marjorie P Hart</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="school3" name="school" placeholder="Enter grade..."><span>Greenbay</span></label>
+							<label> <input type="checkbox" id="school4" name="school" placeholder="Enter grade..."><span>North Elementary</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="school5" name="school" placeholder="Enter grade..."><span>Howard A Yeager</span></label>
+							<label> <input type="checkbox" id="school6" name="school" placeholder="Enter grade..."><span>South Elementary</span></label>
+						</div>
+
+
+						<p><br><b>What position(s) do you normally play? (check all that apply)</b><br></p>
+						<div class="flex">
+							<label> <input type="checkbox" id="forward" name="posit1" placeholder="Enter grade..."><span>Forward</span></label>
+							<label> <input type="checkbox" id="midfield" name="posit1" placeholder="Enter grade..."><span>Midfield</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="defense" name="posit1" placeholder="Enter grade..."><span>Defense</span></label>
+							<label> <input type="checkbox" id="goalkeeper" name="posit1" placeholder="Enter grade..."><span>Goalkeeper</span></label>
+						</div>
+
+						<p><br><b>Uniform Size:</b><br></p>
+						<div class="flex">
+							<label> <input type="checkbox" id="usize1" name="uniformSize" placeholder="Enter uniform size..."><span>Youth Small</span></label>
+							<label> <input type="checkbox" id="usize2" name="uniformSize" placeholder="Enter uniform size..."><span>Medium</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="usize3" name="uniformSize" placeholder="Enter uniform size..."><span>Youth Medium</span></label>
+							<label> <input type="checkbox" id="usize4" name="uniformSize" placeholder="Enter uniform size..."><span>Large</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="usize5" name="uniformSize" placeholder="Enter uniform size..."><span>Youth Large</span></label>
+							<label> <input type="checkbox" id="usize6" name="uniformSize" placeholder="Enter uniform size..."><span>Extra-Large</span></label>
+						</div>
+						<div class="flex">
+							<label> <input type="checkbox" id="usize7" name="uniformSize" placeholder="Enter uniform size..."><span>Small</span></label>
+						</div>
+
+						<p><br><b>Permission to Play</b><br></p>
+						<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the 
+							rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+							associated with hockey and in consideration for the '"League"' accepting the registrant for its
+							hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+							their employees and associated personnel and volunteers, including the facilities used for 
+							practices and games, against any claim by or on behalf of the registrant as a result of the 
+							registrant"'"s participation in the programand/orbeing transported to or from MDHL sponsored
+							activities, which transportation.
+							By signing below, I here by agree and authorize the above. In addition, by signing below, I also 
+							back now ledge that I have read the cancellation policy and agree to its terms.<br></p>
+
+						<p>Parent/Guardian Signature: __________________________________ <br></p>
+						<p>Date: ____________________________</p>
+						<!-- <input type="submit" value="Enviar"> -->
+					</fieldset>
+				</form>
+
+			</section>
+		</main>
+
+	</body>
+</html>
