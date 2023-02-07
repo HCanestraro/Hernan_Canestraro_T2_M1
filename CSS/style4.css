@@ -184,8 +184,10 @@ border: 3px solid greenyellow;
 }
 footer {
 	display: flex;
+	flex-direction: column;
+	text-align: center;
 	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Arial; 
 	justify-items: center;
 	align-items: center;
 	position: relative;
@@ -193,7 +195,6 @@ footer {
 	/* text-shadow: chocolate; */
 	background-color: black;
 	color: chartreuse;
-	text-align: center;
 	/* width: 100%; */
 	border-radius: 10px 10px 10px 10px ;
 	margin-top: 30px;
