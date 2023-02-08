@@ -29,7 +29,7 @@
     				<br>
 				<form action="showdata.html" method="GET">
 					<fieldset>
-						<div>
+						<div class="flex tcol">
 							<label for="firstName">Player's First Name:</label>
 							<input type="text" id="firstName" name="firstName">
 							<label>
@@ -37,23 +37,23 @@
 								<input type="text" id="lastName" name="lastName">
 							</label>
 						</div>
-						<div>
+						<div class="flex tcol">
 							<label>
 							<span>Street Address:</span>
 							<input type="text" id="streetAddress" name="streetAddress">
 							</label>
 						</div>
-						<div>
+						<div class="flex tcol">
 							<label><span>City:</span><input type="text" id="city" name="city"></label>
 							<label>Zip Code: <input type="text" id="zipCode" name="zipCode"></label>
 						</div>
-						<div>
+						<div class="flex tcol">
 							<label><span>Birth Date(mm/dd/yyyy):</span><input type="date" id="birthDate" name="birthDate"><span>Gender:</span></label>
 							<label><span>Female</span><input type="checkbox" id="female" name="gender"></label>	
 							<label>	<span>Male</span><input type="checkbox" id="male" name="gender">
 							</label>
 						</div>
-						<div>
+						<div class="flex tcol">
 							<label>Grade: <input type="checkbox" id="grade" ></label>
 							<label>Pre-School <input type="checkbox" id="grade1" name="preSchool"><span>1st</span></label>
 							<label> <input type="checkbox" id="grade2" name="preSchool"><span>2nd</span></label>
@@ -62,50 +62,57 @@
 							<label> <input type="checkbox" id="grade5" name="preSchool"><span>5th</span></label>
 						</div>
 					
-					
-						<p><b>Which elementary school do you live near?<br>Closest School:</b></p>
+						<div class="container">
+							<p><b>Which elementary school do you live near?<br>Closest School:</b></p>
+						</div>
 						<div class="flex">
 							<label> <input type="checkbox" id="school1" name="school"><span>AJ Katzenmaier</span></label>
 							<label> <input type="checkbox" id="school2" name="school"><span>Marjorie P Hart</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="school3" name="school"><span>Greenbay</span></label>
 							<label> <input type="checkbox" id="school4" name="school"><span>North Elementary</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="school5" name="school"><span>Howard A Yeager</span></label>
 							<label> <input type="checkbox" id="school6" name="school"><span>South Elementary</span></label>
 						</div>
+						<div class="container">
+							<p><br><b>What position(s) do you normally play? (check all that apply)</b><br></p>
+						</div>
 
-
-						<p><br><b>What position(s) do you normally play? (check all that apply)</b><br></p>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="forward" name="posit1"><span>Forward</span></label>
 							<label> <input type="checkbox" id="midfield" name="posit1"><span>Midfield</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="defense" name="posit1"><span>Defense</span></label>
 							<label> <input type="checkbox" id="goalkeeper" name="posit1"><span>Goalkeeper</span></label>
 						</div>
+						<div class="container">
+							<p><br><b>Uniform Size:</b><br></p>
+						</div>
 
-						<p><br><b>Uniform Size:</b><br></p>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="usize1" name="uniformSize"><span>Youth Small</span></label>
 							<label> <input type="checkbox" id="usize2" name="uniformSize"><span>Medium</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="usize3" name="uniformSize"><span>Youth Medium</span></label>
 							<label> <input type="checkbox" id="usize4" name="uniformSize" ><span>Large</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="usize5" name="uniformSize"><span>Youth Large</span></label>
 							<label> <input type="checkbox" id="usize6" name="uniformSize"><span>Extra-Large</span></label>
 						</div>
-						<div class="flex">
+						<div class="flex tcol">
 							<label> <input type="checkbox" id="usize7" name="uniformSize"><span>Small</span></label>
 						</div>
-
-						<p><br><b>Permission to Play</b><br></p>
+						<div class="container">
+							<p><br><b>Permission to Play</b><br></p>
+						</div> 
+						
+						<div class="flex">
 						<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the 
 							rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
 							associated with hockey and in consideration for the '"League"' accepting the registrant for its
@@ -115,11 +122,10 @@
 							registrant"'"s participation in the programand/orbeing transported to or from MDHL sponsored
 							activities, which transportation.
 							By signing below, I here by agree and authorize the above. In addition, by signing below, I also 
-							back now ledge that I have read the cancellation policy and agree to its terms.<br></p>
-
-						<p>Parent/Guardian Signature: __________________________________ <br></p>
-						<p>Date: ____________________________</p>
-						<!-- <input type="submit" value="Enviar"> -->
+							back now ledge that I have read the cancellation policy and agree to its terms.<br>
+							Parent/Guardian Signature: __________________________________ <br>
+							Date: ____________________________</p>
+						</div>	
 					</fieldset>
 				</form>
 

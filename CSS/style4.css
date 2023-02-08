@@ -195,13 +195,13 @@ footer {
 	/* text-shadow: chocolate; */
 	background-color: black;
 	color: chartreuse;
-	/* width: 100%; */
+	width: 100%;
 	border-radius: 10px 10px 10px 10px ;
 	margin-top: 30px;
-	width: 98.5vw;
+	/* width: 98.5vw; */
 }
 /*▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓*/
-/*▓ MEDIA QUERIES ---------------------------------- ▓ */
+/*▓ MEDIA QUERIES 320------------------------------ ▓ */
 /*▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓*/
 @media only screen and (min-width: 320px) and (max-width: 767px){
 	form {
@@ -210,11 +210,12 @@ footer {
 		/* padding-right: 10px; */
 		/* margin-right: 10px; */
 		display: flex;
-		    flex-direction: column;
+		flex-direction: column;
 	}
 	
 	 fieldset{
-		width: 900px;
+		width: 320px;
+		height: 1155px;
 		/* margin-bottom: 2rem; */
 		/* margin-right: 3rem; */
 		/* padding-top: 1rem; */
@@ -251,7 +252,6 @@ footer {
 	}
 	header {
 		width: 100%;
-		/* background-color: aquamarine; */
 	}
 	
 	header > h1 {
@@ -264,7 +264,11 @@ footer {
 		width: 95vw;
 		flex-wrap: nowrap;
 	}
-	
+
+	.tcol {
+		flex-direction: column;
+
+	}
 	/* .contenedor {
 		display: flex;
 		flex-direction: row;
@@ -282,7 +286,7 @@ footer {
 		/* padding: 20px; */
 		align-content: flex-start;
 	    }
-	nav {
+	.navbar {
 		background-color:chartreuse;
 		padding: 1%;
 		display: flex;
@@ -456,7 +460,7 @@ footer {
 		/* padding: 20px; */
 		align-content: flex-start;
 	    }
-	nav {
+	.navbar {
 		background-color:chartreuse;
 		padding: 1%;
 		display: flex;
@@ -624,7 +628,7 @@ footer {
 		/* padding: 20px; */
 		align-content: flex-start;
 	    }
-	nav {
+	.navbar {
 		background-color:chartreuse;
 		padding: 1%;
 		display: flex;
